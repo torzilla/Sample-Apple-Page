@@ -1,0 +1,229 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS reset ends and my CSS starts */
+
+body {
+	height: 830px;
+}
+
+/* nav bar */
+
+.nav-bar {
+	position: absolute;
+	top: 20px;
+	left: 0;
+	right: 0;
+	width: 1000px;
+	display: inline-block;
+	margin: 0 auto;
+	z-index: 1;
+}
+
+.nav-bar li {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+}
+
+.nav-bar a {
+	position: relative;
+	top: 10px;
+	left: 0;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+}
+
+.nav-bar a:hover {
+	color: #C4C4C4;
+}
+
+.nav-bar img {
+	position: absolute;
+	left: -5px;
+	top: -2px;
+	height: 20px;
+	width: auto;
+}
+
+.button {
+	position: relative;
+	display: inline-block;
+	float: left;
+	padding: 0;
+	height: 36px;
+	width: 100px;
+	background: black;
+	background-image: -webkit-linear-gradient(#5A5A5A, #AEAEAE 50%, #5B5B5B 49%);
+	background-image: -moz-linear-gradient(#5A5A5A, #AEAEAE 50%, #5B5B5B 49%);
+	background-image: linear-gradient(#5A5A5A, #AEAEAE 50%, #5B5B5B 49%);
+	border-right: 1px solid #7A7A7A;
+	text-decoration: none;
+}
+
+.nav-bar li:first-of-type {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	height: 36px;
+}
+
+.nav-bar li:last-of-type {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-right: none;
+	height: 36px;
+	width: 175px;
+}
+
+.search {
+	position: absolute;
+	top: 3px;
+	left: 500px;
+	width: 50px;
+	z-index: 2;
+}
+
+/* header section*/
+
+header {
+	position: absolute;
+	background-image: url("images/bikes3.png");
+	height: 534px;
+	width: 100%;
+	border-bottom: 2px solid white;
+}
+
+
+.main {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+	color: white;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.main p, h1{
+	width: 1000px;
+}
+
+.main p{
+	font-size: 30px;
+  padding-top: 25px;
+	padding-bottom: 50px;
+}
+
+.main h1 {
+	font-size: 65px;
+	padding-top: 80px;
+}
+
+.main a {
+	position: relative;
+	top: 20px;
+	text-decoration: none;
+	font-size: 25px;
+}
+
+.main a:hover {
+	text-decoration: underline;
+}
+
+/* middle section*/
+
+ul.middle {
+	position: absolute;
+	top: 535px;
+	bottom: 0;
+	display: inline;
+	margin: 0 auto;
+	width: 1345px;
+}
+
+.middle li {
+	position: relative;
+	top: 1px;
+	left: 0;
+	right: 0;
+	display: inline-block;
+	height: 200px;
+	max-width: 324px;
+}
+
+/* Footer Section */
+
+.bottom {
+	position: absolute;
+	top: 760px;
+	width: 500px; 
+	margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	color: #757575;
+	font-size: 9px;
+}
+
+.bottom a{
+	color: #4D4DFF;
+	text-decoration: none;
+}
+
+.left {
+	left: 200px;
+	text-align: left;
+	line-height: 30px;
+}
+
+.right {
+	top: 760px;
+	right: 200px;
+	text-align: right;
+}
+
+
