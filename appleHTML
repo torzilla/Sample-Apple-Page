@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Apple</title>
+<meta name="author" content="Tor Rydberg">
+<link rel="stylesheet" type="text/css" href="appleCSS.css">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:600,400,300' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<section>
+		<ul class="nav-bar">
+			<li class="button"><a href="http://apple.com" title="Apple"><img src="images/AppleLogo.png" alt="Apple Logo"></a></li>
+			
+			<li class="button"><a href="http://store.apple.com/us" title="Apple Store">Apple</a></li>
+			
+			<li class="button"><a href="http://www.apple.com/mac/" title="Mac">Mac</a></li>
+			
+			<li class="button"><a href="http://www.apple.com/iphone/" title="iPhone">iPhone</a></li>
+			
+			<li class="button"><a href="http://www.apple.com/ipad/" title="iPad">iPad</a></li>
+			
+			<li class="button"><a href="http://www.apple.com/ipod/" title="iPod">iPod</a></li>
+			
+			<li class="button"><a href="http://www.apple.com/itunes/" title="iTunes">iTunes</a></li>
+			
+			<li class="button"><a href="http://www.apple.com/support/" title="Support">Support</a></li>
+			
+			<li class="button"><a href="http://www.apple.com/support/">Search</a></li>
+			
+
+		</ul>
+	</section>
+	
+	<header class="main">
+		<h1 class="main">What will your verse be?</h1>
+		<p class="main">Everyone has something to share. See how people are using<br> iPad in their unique ways to add to the world's story.<br>
+		<a class="main" href="https://www.apple.com/your-verse/striking-a-new-chord/" title="Explore">Explore the latest story ></a></p>
+	</header>
+	<section>
+		<ul class="middle">
+			<li class="live"><a href="http://www.apple.com/live/" title="Apple Live"><img src="images/promo_live.jpg" alt="Promo" title="Promo"></a></li>
+			<li class="dreams"><a href="https://www.apple.com/iphone-5s/powerful/" title="iphone"><img src="images/promo_dreams.jpg" alt="Dreams" title="Dreams"></a></li>
+			<li class="college"><a href="http://store.apple.com/us/browse/campaigns/back_to_school?aid=WWW-AMRUS-com-BTS14-home" title="College"><img src="images/promo_college_reminder.jpg" alt="College" title="College"></a></li>
+			<li class="festival"><a href="http://search.itunes.apple.com/WebObjects/MZContentLink.woa/wa/link?path=festival" title="itunes store"><img src="images/promo_itunes_festival.jpg" alt="iTunes Festival" title="iTunes Festival"></a></li>
+		</ul>
+	</section>
+	<footer>
+		<p class="bottom left">Shop the <a href="http://store.apple.com/us" title="Apple Online Store">Apple Online Store</a> &#40;1&#45;800&#45;MY&#45;APPLE.&#41; visit an <a href="https://www.apple.com/retail/" title="Apple Retail Store">Apple Retail Store</a>. or find a <a href="https://www.apple.com/buy/" title="Reseller.">reseller.</a><br>
+		Copyright &#169; <time datetime="2014">2014</time> Apple Inc. All rights reserved. <a href="https://www.apple.com/legal/" title="Terms of Use">Terms of Use</a>&#32;|&#32;<a href="https://www.apple.com/legal/privacy/en-ww/" title="Privacy Policy">Privacy Policy</a>
+		</p>
+		
+		<p class="bottom right"><a href="https://www.apple.com/sitemap/" title="Site Map">Site Map</a>&#32;|&#32;<a href="https://www.apple.com/hotnews/" title="Hot News">Hot News</a>&#32;|&#32;<a href="https://www.apple.com/rss/" title="RSS Feeds">RSS Feeds</a>&#32;|&#32;<a href="https://www.apple.com/pr/" title="Media Info">Media Info</a>&#32;|&#32;<a href="https://www.apple.com/environment/" title="Environment">Environment</a>&#32;|&#32;<a href="https://www.apple.com/jobs/us/" title="Job Opportunities">Job Opportunities</a>&#32;|&#32;<a href="https://www.apple.com/contact/" title="Contact Us">Contact Us</a>&#32;|&#32;<a href="https://www.apple.com/choose-your-country/" title="Choose Your Country"><img src="images/usa.png" alt="USA Icon"></a></p>
+	</footer>
+	
+	
+
+</body>
+</html>
